@@ -22,7 +22,7 @@ export default function Home() {
         <GlitchText
           speed={0.3}
           enableShadows={true}
-          enableOnHover={false}
+          enableOnHover={true}
           className="custom-class"
         >
           Launching Soon!!

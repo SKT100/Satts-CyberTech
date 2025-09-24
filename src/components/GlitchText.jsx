@@ -11,7 +11,7 @@ const GlitchText = ({
     "--after-shadow": enableShadows ? "-5px 0 red" : "none",
     "--before-shadow": enableShadows ? "5px 0 cyan" : "none",
   };
-const baseClasses = "text-[#084f6a] text-[clamp(2rem,10vw,8rem)] font-black relative mx-auto select-none cursor-pointer";
+const baseClasses = "text-[#f6f6f6] text-[clamp(2rem,10vw,8rem)] font-black relative mx-auto select-none cursor-pointer";
 
 const pseudoClasses = !enableOnHover
   ? "after:content-[attr(data-text)] after:absolute after:top-0 after:left-[10px] after:text-[#e7e5e5fe] after:bg-[#0000001a] after:overflow-hidden after:[clip-path:inset(0_0_0_0)] after:[text-shadow:var(--after-shadow)] after:animate-glitch-after " +
